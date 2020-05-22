@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5 { 
+.q5_contents { 
   position: relative;
   width: 500px ;
   height:  500px;
@@ -17,63 +17,63 @@
   text-align: center;
 }
 
-.q5_box.is_1 {
+.is_1 {
   z-index: 1;
   top: 40px;
   left: 200px;
   background-color: #ffefd3;
 }
 
-.q5_box.is_2 {
+.is_2 {
   z-index: 2;
   top: 120px;
   right: 120px;
   background-color: #7084de;
 }
 
-.q5_box.is_3 {
+.is_3 {
   z-index: 3;
   top: 200px;
   right: 40px;
   background-color: #d0ecea;
 }
 
-.q5_box.is_4 {
+.is_4 {
   z-index: 4;
   top: 280px;
   right: 120px;
   background-color: #8b7a5b;
 }
 
-.q5_box.is_5 {
+.is_5 {
   z-index: 5;
   top: 350px;
   left: 200px;
   background-color: #9fd6d2;
 }
 
-.q5_box.is_6 {
+.is_6 {
   z-index: 6;
   top: 280px;
   left: 120px;
   background-color: #fffee4;
 }
 
-.q5_box.is_7 {
+.is_7 {
   z-index: 7;
   top: 200px;
   left: 40px;
   background-color: #deae76;
 }
 
-.q5_box.is_8 {
+.is_8 {
   z-index: 8;
   top: 120px;
   left: 120px;
   background-color: #de70cf;
 }
 
-.q5_box.is_8::after {
+.is_8::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -83,7 +83,7 @@
   content: "";
 }
 
-.q5_box.is_9 {
+.is_9 {
   z-index: 9;
   position: fixed;
   top: 10px;

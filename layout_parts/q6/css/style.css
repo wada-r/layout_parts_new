@@ -7,7 +7,7 @@
   background-color: #e6f2ff;
 }
 
-.q6__box.is-textalign .q6__box__inner {
+.q6__box__inner {
   text-align: center;
 }
 
@@ -20,11 +20,11 @@
   text-align: center;
 }
 
-.q6--around.is-table {
+.is-table {
   display: table;
 } 
 
-.q6--around.is-table .q6__box {
+.q6__box {
   display: table-cell;
   background-color: #ECF1F2;
   text-align: center;
@@ -37,22 +37,22 @@
   background-color: #fff;
 }
 
-.q6--around.is-flex {
+.is-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.q6--around.is-flex .q6__box__text {
+.q6__box__text {
   padding: 10px;
   background-color: #FFF;
 }
 
-.q6--position .q6__box {
+.q6__box {
   position: relative;
 }
 
-.q6__box.is-stable .q6__box__inner {
+.is-stable .q6__box__inner {
   position: absolute;
   top: 0;
   right: 0;
@@ -61,7 +61,7 @@
   margin: auto;
 }
 
-.q6__box.is-flexible .q6__box__inner {
+.is-flexible .q6__box__inner {
   position: absolute;
   top: 50%;
   left: 50%;

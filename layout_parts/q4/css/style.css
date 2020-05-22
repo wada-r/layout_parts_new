@@ -3,52 +3,52 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
-.q4{
+.q4_box {
   padding:  20px;
   box-sizing: border-box;
   background-color: #ecf1f2;
 }
 
-.contents{
+.contents {
   display: table;
   margin-top: 20px;
   width: 100%;
   background-color: #ECF1E2;
 }
 
-.contents:first-child{
+.contents:first-child {
   margin-top: 0;
 }
 
-.contents_cell{
+.contents_cell { 
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
 
-.contents_cell.is_orange{
-  width: 100px;
+.is_orange {
+  width: 100px; 
   background-color: #FDC8B8;
 }
 
-.contents_cell.is_pink{
+.is_pink {
  background-color: #E0ABD9;
 }
 
-.contents_cell.is_blue{
+.is_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.contents_cell.is_yellow{
+.is_yellow {
   background-color: #e5d32e;
- } 
+} 
 
- .contents_cell.is_red{  
-   background-color:#ec8f9a;
-
+.is_red { 
+  background-color: #ec8f9a; 
 }
-.contents_cell.is_green{
+
+.is_green {
   width: 500px;
   background-color: #8fdcad;
 }
