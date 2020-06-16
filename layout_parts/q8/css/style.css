@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
+
 .trans {
   position: relative;
   overflow: hidden;
@@ -62,4 +64,5 @@
     transform: rotate(360deg);
   }
 }
+
 /* 回答はここに書いてね */
